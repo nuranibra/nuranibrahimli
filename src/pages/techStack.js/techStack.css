@@ -1,0 +1,16 @@
+@import './../skils/skil.module.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+.box{
+    color:#000;
+    padding-top:10%;
+}
+
+.textBox{
+    font-family:Nunito ;
+}
+
+@media only screen and (max-width:816px){
+    .textBox{
+        text-align: center;
+    }
+}

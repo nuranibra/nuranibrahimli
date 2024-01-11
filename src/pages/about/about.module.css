@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&display=swap');
+.text{
+    font-size:36px;
+    font-weight: bold;
+    font-family: DM Sans;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.box{
+    padding-top:10%;
+}
+
+.paragBox{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 50px;
+    font-size:25px;
+}
+
+.btn{
+    border:none;
+    font-size:20px;
+    font-family: Nunito;
+    padding:15px 25px;
+    width: 20%;
+    border:2px solid #000;
+    background-color: #fff;
+    transition: calc(0.2s);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+@media only screen and (max-width:541px){
+    .text, .paragBox{
+        width: 90%;
+    }
+    .paragBox{
+        font-size:20px;
+    }
+    .btn{
+        width: 40%;
+    }
+}

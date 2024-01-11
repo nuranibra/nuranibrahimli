@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.textAndPhoto{
+    display: flex;
+    justify-content: space-around;
+    padding:2%;
+}
+
+.mainBox{
+    background: url(./assets/image/cool-background.png);
+    height: 100%;
+    padding:3% 0%;
+    padding-top:12%;
+}
+
+.imageProfil{
+    border-radius:50%;
+    border:5px solid #7da0ff;
+    width: 200px;
+    height: 200px;
+    transition: calc(0.4s);
+}
+
+.imageProfil:hover{
+    border:none;
+    width: 210px;
+    height: 210px;
+    transform: rotate(-360deg);
+}
+
+.textProfil{
+    font-family: Nunito;
+    font-size:25px;
+    width: 70%;
+    color:#fff;
+}
+
+.hireBtn{
+    padding:5px 20px;
+    font-size:20px;
+    transition: calc(0.3s);
+    border:none;
+    border-radius:5px;
+    background-color: #000;
+    color:#fff;
+}
+
+.hireBtn:hover{
+    margin-top:-1%;
+    box-shadow: rgba(189, 189, 189, 0.45) 0px 25px 20px -20px;
+}
+@media only screen and (max-width:281px){
+    .textProfil{
+        font-size:10px;
+    }
+    .mainBox{
+        padding-top:15%;
+    }
+    .imageProfil{
+        width: 70px;
+        height: 70px;
+        border:3px solid #7da0ff;
+    } .imageProfil:hover{
+        transform: none;
+        width: 70px;
+        height: 70px;
+        border:3px solid #7da0ff
+    }
+}
+
+@media only screen and (min-width:282px) and (max-width:540px){
+    .textProfil{
+        font-size:18px;
+        width: 70%;
+    }
+    .imageProfil{
+        width: 150px;
+        height: 150px;
+    }
+    .textAndPhoto{
+        padding:2%;
+        justify-content: space-evenly;
+        margin-top:2vh;
+    } .imageProfil:hover{
+        transform: none;
+        width: 150px;
+        height: 150px;
+        border:5px solid #7da0ff;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width:768px){
+    .imageProfil:hover{
+        transform: none;
+        width: 200px;
+        height: 200px;
+        border:5px solid #7da0ff;
+    }
+    .imageProfil{
+        width: 200px;
+        height: 200px;
+    }
+}

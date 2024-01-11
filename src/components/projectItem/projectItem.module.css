@@ -1,0 +1,75 @@
+.item{
+    width: 30%;
+    border-radius:20px;
+    background-color: #ffffff;
+    padding-bottom:0.3%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.item > div{
+    cursor: default;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.comment{
+    color:#a0a0a0;
+}
+
+.textBox{
+    margin:3% 5%;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}
+
+.h4{
+    font-size:10px;
+    text-decoration: underline;
+    margin-left:3%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    column-gap: 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:370px){
+    .item{
+        width: 90%;
+    } .box{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:371px) and (max-width:540px){
+    .item{
+        width: 48%;
+    } .box{
+        width: 100%;
+        justify-content: space-between;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-bottom:10%;
+    } .comment {
+        font-size:10px;
+    } .textBox > h3{
+        font-size:15px;
+    } .textBox > h5{
+        font-size:9px;
+    }
+}

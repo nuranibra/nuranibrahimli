@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.contactSection{
+    padding-top:5%;
+    font-family: Nunito;
+}
+
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    padding-top:3%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.textBox{
+    text-align: center;
+}
+
+.formBox{
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.textBox > h1{
+    font-size:40px
+}
+
+.textBox > h4{
+    font-size:16px;
+}
+
+.inp{
+    width: 90%;
+    height: 30px;
+    border-radius:20px;
+    border:1px solid #000;
+    font-family: Nunito;
+    padding:0.5%;
+    padding-left:1%;
+}
+
+.textArea{
+    width: 90%;
+    font-family: Nunito;
+    border-radius:20px;
+    padding:1%;
+}
+
+.btn{
+    border:2px solid #000;
+    background-color: #fff;
+    padding:10px 35px;
+    font-size:18px;
+    transition: calc(0.2s);
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+@media only screen and (max-width:541px){
+    .textBox > h1{
+        font-size:30px;
+        padding-top:2%;
+    }
+    .formBox{
+        width: 90%;
+    }
+}
