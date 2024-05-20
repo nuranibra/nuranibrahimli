@@ -25,6 +25,12 @@
     align-items: center;
     align-self: center;
     column-gap: 20px;
+    row-gap: 10px;
+}
+
+.photoBox > img{
+    width: 100px;
+    height: 90px;
 }
 
 .textContent{
