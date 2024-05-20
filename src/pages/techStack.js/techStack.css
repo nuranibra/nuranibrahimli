@@ -7,6 +7,12 @@
 
 .textBox{
     font-family:Nunito ;
+    text-align: center;
+}
+
+.photoBox{
+    width: 80%;
+    margin: 0px auto;
 }
 
 @media only screen and (max-width:816px){
